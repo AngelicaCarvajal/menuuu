@@ -1,0 +1,109 @@
+body .menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 700px;
+}
+
+body .menu .logo > span{
+    font-size: 56px;
+    padding: 25px 60px;
+}
+
+body .menu .menuitems{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Merriweather Sans';
+    align-items: center;
+    gap: 50px;
+}
+
+body .menu .menuitems .boton1{
+    background: #333333;
+    border: 0;
+    border-radius: 5px;
+    color: #fefefe;
+    font-family: 'Merriweather Sans';
+    padding: 16px 32px;
+}
+
+body .footer {
+    background: #121212;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+body .footer .info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px 500px;
+    
+    width: 500px;
+}
+
+
+body .footer .info .logo2 > span {
+    color: #666666;
+    font-size: 151px;
+
+}
+
+
+body .footer .info .informacion > p {
+    color: #999999;
+    font-size: 16px;
+    text-align: center;
+}
+
+body .footer .info .submitbar{
+    background: #ffffff;
+    align-items: center;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 100%; 
+}
+
+body .footer .info .submitbar .ingresaremail{
+    border: none;
+    font-size: 5px;
+
+    padding: 10px 10px;
+}
+
+body .footer .info .submitbar .boton2 {
+    background: #666666;
+    border: none;
+    border-radius: 50px;
+    color: #fefefe;
+    padding: 16px 32px;
+    cursor: pointer;
+
+}
+
+body .footer .logos3{
+    color: #666666;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 50px;
+    gap: 35px;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+}
+
+body .fondo {
+    align-items: flex-start;
+    background: #333333;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0px;
+    
+}
+
